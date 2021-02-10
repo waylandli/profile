@@ -6,11 +6,14 @@ class Greeting extends Component {
     render() {
         return (
             <div class="cardText">
+                <div class="hey">
+                    Hey it's
+                </div>
                 <a>
-                    Welcome to my Website
+                    Wayland Li
                 </a>
                 <div class="body">
-                    Here you will learn about what kind of engineer I am and the types of project I have been involved in
+                    I'm a software engineer from San Francisco looking to build websites, and expand my programming abilities
                 </div>
             </div>
         )

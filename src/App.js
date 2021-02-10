@@ -1,5 +1,6 @@
 import React from "react";
-import View from "./view.js"
+import Home from "./components/home/home"
+import About from "./components/about/about"
 import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
         <div>
             <Router>
                 <Switch>
-                    <Route exact path="/" component={View} />
+                    <Route exact path="/" component={Home} />
+                    <Route path="/about" component={About} />
                 </Switch>
             </Router>
         </div>
