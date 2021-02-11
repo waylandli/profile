@@ -1,0 +1,8 @@
+{
+    "projects": [
+        {
+            "name": "We-Locate",
+            "description": "A website using google and numbeo api to allow users to find open housing/apartment applications within a set distance on a specified location."
+        }
+    ]
+}
