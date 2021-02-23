@@ -1,3 +1,6 @@
-div .view {
-    
+body {
+    height: 100%;
+    width: 100%;
+    background-color:  #6e75f7e7;
+    background-repeat: no-repeat;
 }
