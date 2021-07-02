@@ -2,14 +2,17 @@ import React from "react";
 import NavBar from "../navbar/navbar"
 import Greeting from "./greeting/greeting"
 import Projects from "./projectcard/projects"
-import "./home.css"
+import 'bulma/css/bulma.css'
+import './home.css'
+
+
 
 function Home() {
     return (
-        <div className="view">
+        <div className="view" >
             <NavBar/>
             <Greeting/>
-            <Projects/>
+            
         </div>
     )
 }
